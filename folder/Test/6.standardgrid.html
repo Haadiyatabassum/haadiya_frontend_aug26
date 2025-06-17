@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: 20% 60% 20%;
+            grid-template-rows: 10% 80% 10%;
+            height: 97vh;
+            color:white;
+        }
+        .child1{
+            background-color: black;
+            grid-column: 1/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: verdana;
+        }
+        .child2{
+          background-color: whitesmoke;
+          color: black;
+          display: flex;
+          justify-content: left;
+          align-items: left;
+          padding: 15px;
+        }
+        .child3{
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            padding: 15px;
+        }
+        .child4{
+                 background-color: white;
+        }
+        .child5{
+            background-color: black;
+            grid-column: 1/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            font-family: verdana;
+        }
+        </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">Header</div>
+        <div class="child2"><b>Sidebar</b>
+        <p>The Menu or quick access content</p>
+        </div>
+        <div class="child3"><b>Main Content</b>
+        <p>The core website content should be displayed here</p></div>  
+        <div class="child4"></div>
+        <div class="child5">Footer</div>
+    </div>
+</body>
+</html>
